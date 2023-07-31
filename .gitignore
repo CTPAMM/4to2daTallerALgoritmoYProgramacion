@@ -1,2 +1,3 @@
-# add HtmlCssJs/Proyectos/Entregas folder to .gitignore
-echo "HtmlCssJs/Proyectos/Entregas" >> .gitignore
+# ignore all directories with the name Entregas
+#HtmlCssJs/Proyectos/Entregas
+#Python/Evaluaciones/Entregas

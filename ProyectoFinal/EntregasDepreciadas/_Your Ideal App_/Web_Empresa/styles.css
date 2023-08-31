@@ -1,0 +1,49 @@
+/* Estilos de la palabra del logo*/
+.logo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*Estilos generales */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.img-logo {
+    display: block;
+    width: 6%;
+    margin: left;
+}
+
+/*Estilos de la barra de navegación */
+nav{
+    background-color: rgb(5, 23, 41);
+    color:rgb(215, 146, 228);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+/*Estilos de los enlaces de navegación */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li{
+    margin-right: 20px;
+}
+/*Estilos de la sección hero*/
+#hero {
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    color: rgb(215, 146, 228);
+    text-align: center;
+    padding: 150px;
+}
+.hero-content {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}

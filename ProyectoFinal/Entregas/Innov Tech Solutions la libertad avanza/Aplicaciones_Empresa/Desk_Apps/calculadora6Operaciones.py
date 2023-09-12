@@ -24,4 +24,4 @@ numero2 = input("ingrese el segundo numero")
 
 if opcion == 1:
     suma= numero1+numero2
-    print(f"el resultado de sumar {numero1} y {numero2} es: {sumar} ")
+    print(f"el resultado de sumar {numero1} y {numero2} es: {suma} ")

@@ -1,22 +1,13 @@
-/* Estilos de la palabra del logo */
-.logo {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.img-logo {
-    display: block;
-    width: 5%;
-    margin: left;    
-}
-
 /* Estilos generales */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Estilos de la barra de navegación */
+/* Estilos de la barra de navegación (nav) */
+
 nav {
     background-color: #333;
     color: white;
@@ -26,7 +17,6 @@ nav {
     align-items: center;
 }
 
-/* Estilos de los enlaces de navegación*/
 .nav-links {
     list-style: none;
     display: flex;
@@ -41,7 +31,21 @@ nav {
     color: white;
 }
 
-/* Estilos de la sección hero */
+/* Estilos de la palabra del logo */
+.logo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Estilos de la imagen del logo en el nav */
+
+.img-logo {
+    display: block;
+    width: 5%;
+    margin: left;    
+}
+
+/* Estilos de la imagen de cabecera (hero) */
+
 #hero {
     background-image: url('imagenes/hero.png');
     background-size: cover;
@@ -54,3 +58,29 @@ nav {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: large;
 }
+
+/* Estilos de la sección Acerca de (about) */
+
+#about {
+    padding: 80px 0;
+    text-align: center;
+    background-color:#ffffff;
+}
+
+.about-content {
+    height:400px;
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+.about-content .card {
+    background-color: #4e519e;
+    box-shadow: 0 4px 8px 0 rgba(11, 11, 11, 0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+ }
+  

@@ -1,30 +1,53 @@
 # Calculadora para realizar operaciones matemáticas (6)
 
-print("****************************************************************")
-print("Bienvenido a la calculadora de 6 operaciones")
-print("****************************************************************")
+# Iterar infinitamente todo el programa
 
-print("********************** MENU DE OPERACIONES **********************")
-print("1- SUMA")
-print("2- RESTA")
-print("3- MULTIPLICACIÓN")
-print("4- DIVISIÓN")
-print("5- POTENCIACIÓN")
-print("6- RADICACIÓN")
-print("****************************************************************")
+while True:
+    # Imprimir en pantalla el menú de opciones
 
-opcion = int(input("Ingrese una opción de operación: "))
+    print("****************************************************************")
+    print("Bienvenido a la calculadora de 6 operaciones")
+    print("****************************************************************")
 
-# Comienza la lógica del programa.
+    print("********************** MENU DE OPERACIONES **********************")
+    print("1- SUMA")
+    print("2- RESTA")
+    print("3- MULTIPLICACIÓN")
+    print("4- DIVISIÓN")
+    print("5- POTENCIACIÓN")
+    print("6- RADICACIÓN")
+    print("****************************************************************")
 
-print("********************** Inicia aplicación **********************")
+    # Pedir al usuario ingrese una opción del menú
 
-numero1 = input(" Ingrese el primer número: ")
-numero2 = input(" Ingrese el segundo número: ")
+    opcion = int(input("Ingrese una opción de operación: "))
 
-if opcion == 1:
-    suma = numero1+numero2
-    print("El resultado de sumar {numero1} y {numero2} es: {suma}")
-elif opcion == 2:
-    resta = numero1-numero2
-    print(f"El resultado de resta {numero1} y {numero2}")
+    print("********************** Inicia aplicación **********************")
+
+    # Pedir al usuario ingrese los números a operar
+
+    numero1 = input(" Ingrese el primer número: ")  # Profe: cambiar a int los inputs
+    numero2 = input(" Ingrese el segundo número: ")
+
+    # Decidir la operación a realizar según la opción ingresada por el usuario
+
+    if opcion == 1:
+        Suma = numero1+numero2
+        print(f"El resultado d la suma {numero1} y {numero2} es: {Suma}")
+    elif opcion == 2:
+        resta = numero1-numero2
+        print(f"El resultado de la resta {numero1} y {numero2} es: {resta}")
+    elif opcion == 3:
+        Multiplicacoin = numero1*numero2
+        print(f"El resultado de la multiplicacion {numero1} y {numero2} es: {Multiplicacoin}")
+    elif opcion == 4:
+        Division = numero1/numero2
+        print(f"El resultado de division {numero1} y {numero2} es: {Division}")    
+    elif opcion == 5:
+        Potenciación = numero1^numero2  # Profe: Falta operador de potenciación (**)
+        print(f"El resultado de potencia {numero1} y {numero2} es: {Potenciación}")
+    elif opcion == 6:
+        Radicación = numero1numero2  # Profe: Falta la operación de radicación
+        print(f"El resultado de radicación {numero1} y {numero2} es: {Radicación}")
+    else # Profe: Falta la lógica para el "else"
+        

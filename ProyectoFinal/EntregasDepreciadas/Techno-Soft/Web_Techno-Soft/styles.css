@@ -19,7 +19,7 @@ body {
 /* Estilos de la barra de navegación */
 nav {
     background-color: rgb(25, 0, 85);
-    color: rgb(229, 229, 240);
+    color: rgb(220, 220, 255);
     display:flex;
     justify-content: space-between;
     padding: 1rem;
@@ -41,7 +41,7 @@ nav {
 #hero {
     background-image: url('./imagenes/hero.jpg');
     background-size: cover;
-    color: rgb(255, 202, 202);
+    color: rgb(255, 239, 239);
     text-align: center;
     padding: 150px 0;
 }
@@ -55,4 +55,20 @@ nav {
     padding: 80px;
     text-align: center;
     background-color: rgb(255, 255, 255);
+}
+.about-content {
+    height: 400px;
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+.about-content .card {
+    background-color: rgb(70, 68, 187);
+    box-shadow: 0 4px 8px 0 rgb(255, 93, 93);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
 }

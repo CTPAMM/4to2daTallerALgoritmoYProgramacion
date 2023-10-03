@@ -1,27 +1,44 @@
 #calculadora para realizar operaciones matematicas (6)
-print("**************************************************")
-print("bienvenidos a la calculadora de 6 operaciones")
-print("**************************************************")
+
+# Iterar infinitamente todo el programa
+
+while True:
+    # Imprimir en pantalla el menú de opciones
+
+    print("**************************************************")
+    print("bienvenidos a la calculadora de 6 operaciones")
+    print("**************************************************")
 
 
-print("*************** Menu*************")
-print("1- Logo")
-print("2- resta")
-print("3-Multiplicacion")
-print("4-division")
-print("5-potenciacion")
-print("6-Radicacion")
-print("*********************************")
+    print("*************** Menu*************")
+    print("1- Logo")
+    print("2- resta")
+    print("3-Multiplicacion")
+    print("4-division")
+    print("5-potenciacion")
+    print("6-Radicacion")
+    print("*********************************")
 
-opcion = int(input("ingrese una opcion de operacion del menu"))
+    # Pedir al usuario ingrese una opción del menú
 
-# Comienza la logica del programa
+    opcion = int(input("ingrese una opcion de operacion del menu"))
 
-print("************ inicia el programa ************")
+    print("************ inicia el programa ************")
 
-numero1 = input("ingrese el primer numero: ")
-numero2 = input("ingrese el segundo numero")
+    # Pedir al usuario ingrese los números a operar
 
-if opcion == 1:
-    suma= numero1+numero2
-    print(f"el resultado de sumar {numero1} y {numero2} es: {sumar} ")
+    numero1 = input("ingrese el primer numero: ")  # Profe: convertir los inputs a int
+    numero2 = input("ingrese el segundo numero")
+
+    # Decidir la operación a realizar según la opción ingresada por el usuario
+
+    if opcion == 1:
+        suma= numero1+numero2
+        print(f"el resultado de sumar {numero1} y {numero2} es: {suma} ")
+    elif
+    elif
+    elif    # Profe: Faltan completar las lógicas para las opciones restantes
+    elif
+    elif
+    else
+

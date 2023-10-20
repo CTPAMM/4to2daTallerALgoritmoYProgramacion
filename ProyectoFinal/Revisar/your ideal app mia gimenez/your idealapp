@@ -1,0 +1,12 @@
+# PROBLEMA: un usuario necesita crear un menu de opciones.
+# SOLUCION: crear un algoritmo de soluciones el problema del usuario.
+# ALGORITMO: un programa en python para solucionar el problema.
+
+while true:
+    # PASO 1: mostrar el menu de opciones de ususario.
+    print("********************MENU DE MARCAS DE ROPA********************")
+    print("1- nike")
+    print("2-adidas")
+    print("3-puma")
+    
+    

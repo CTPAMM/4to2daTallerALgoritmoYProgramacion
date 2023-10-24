@@ -46,17 +46,17 @@ nav {
 /* Estilos de la imagen de cabecera (hero) */
 
 #hero {
-  background-image: url("./imagenes/hero.jpeg");
+  background-image: url("./imagenes/hero.jfif");
   background-color: rgb(0, 0, 0);
-  background-size: cover;
-  color: rgb(215, 146, 228);
+  background:cover;
+  color: rgb(248, 248, 248);
   text-align: center;
-  padding: 150px;
+  padding: 170px;
 }
 
 .hero-content {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
 }
 
 /* Estilos de la sección Acerca de (about) */

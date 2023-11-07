@@ -46,17 +46,17 @@ nav {
 /* Estilos de la imagen de cabecera (hero) */
 
 #hero {
-  background-image: url("./imagenes/hero.jpeg");
+  background-image: url("./imagenes/hero.jfif");
   background-color: rgb(0, 0, 0);
-  background-size: cover;
-  color: rgb(215, 146, 228);
+  background:cover;
+  color: rgb(248, 248, 248);
   text-align: center;
-  padding: 150px;
+  padding: 170px;
 }
 
 .hero-content {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
 }
 
 /* Estilos de la sección Acerca de (about) */
@@ -64,7 +64,7 @@ nav {
 #about {
   padding: 80px 0;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #b189fc;
 }
 
 .about-content {
@@ -76,7 +76,7 @@ nav {
 }
 
 .about-content .card {
-  background-color: #4e519e;
+  background-color: #d4d5db;
   box-shadow: 0 4px 8px 0 rgba(11, 11, 11, 0.2);
   max-width: 400px;
   margin: auto;
@@ -136,8 +136,8 @@ nav {
 
 .img-services {
   display: block;
-  width: 40%;
-  margin: auto;
+  width: 50%;
+  margin: 150px;
 }
 
 /* Estilos de la sección "Conoce al Equipo" */

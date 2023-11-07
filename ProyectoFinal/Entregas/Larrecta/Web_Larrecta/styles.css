@@ -28,7 +28,7 @@ nav {
 
 .nav-links a {
   text-decoration: none;
-  color: aqua;
+  color:  rgb(73, 53, 255);
 }
 
 /* Estilos de la palabra del logo */
@@ -63,7 +63,7 @@ nav {
 #about {
   padding: 80px 0;
   text-align: center;
-  background-color: brown;
+  background-color: rgb(73, 53, 255);
 }
 
 .about-content {
@@ -75,7 +75,7 @@ nav {
 }
 
 .about-content .card {
-  background-color: #4e519e;
+  background-color: #6ba7f7;
   box-shadow: 0 4px 8px 0 rgba(11, 11, 11, 0.2);
   max-width: 400px;
   margin: auto;
@@ -92,7 +92,7 @@ nav {
 #services {
   padding: 80px 0;
   text-align: center;
-  background-color: #4e519e;
+  background-color:  rgb(247, 247, 247);
 }
 
 .services-content {
@@ -121,8 +121,8 @@ nav {
   border: none;
   outline: 0;
   padding: 12px;
-  color: white;
-  background-color: #d24726;
+  color: rgb(0, 0, 0);
+  background-color:   rgb(73, 53, 255);                   
   text-align: center;
   cursor: pointer;
   width: 50%;
@@ -141,7 +141,7 @@ nav {
 
 /* Estilos de la sección "Conoce al Equipo" */
 #team {
-  background-color: #f9f9f9;
+  background-color: #fffafa;
   padding: 80px 0;
   text-align: center;
 }
@@ -164,7 +164,7 @@ nav {
 
 /* Add some shadows to create a card effect */
 .team-card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
 }
 
 /* Some left and right padding inside the container */
@@ -252,12 +252,12 @@ nav {
   display: block;
   margin-top: 20px;
   font-size: 18px;
-  color: #ff5733;
+  color:  rgb(73, 53, 255); 
   text-decoration: none;
 }
 
 .contact-email:hover {
-  color: #ff8c5a;
+  color:  rgb(73, 53, 255);
 }
 
 /* Estilos del botón "Volver al Inicio" */
@@ -276,6 +276,6 @@ nav {
 }
 
 .back-to-top:hover {
-  background-color: #ff8c5a;
+  background-color: rgb(73, 53, 255);
   transform: scale(1.05);
 }

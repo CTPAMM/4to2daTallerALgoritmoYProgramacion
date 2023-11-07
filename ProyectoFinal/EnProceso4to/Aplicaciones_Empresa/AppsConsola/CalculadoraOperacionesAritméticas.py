@@ -1,15 +1,15 @@
-#*******************************************************************************
+# *******************************************************************************
 # Empresa: OvniOn
-# 
+#
 # Aplicación de escritorio: Calculadora de consola con 6 operaciones
-# 
+#
 # Destinado a: estudiantes de todas las edades y niveles.
-# 
+#
 # Descripción del funcionamiento:
 #   Muestra opciones de operaciones y solicita al usuario que ingrese
 #   una opcion. Entonces permite realizar esa operación con los números
 #   elegidos por el usuario y luego informa el resultado.
-#*******************************************************************************
+# *******************************************************************************
 
 
 import math
@@ -19,7 +19,7 @@ import math
 while True:
     print("**********************************************")
     print("Bienvenido a la calculadora de 6 operaciones")
-    print(""                                              )
+    print("")
     print("                             creado por OvniOn")
     print("**********************************************")
 
@@ -41,10 +41,10 @@ while True:
 
     if opcion == 0:
         print("**********************************************")
-        print("¡ Gracias por utilizar nuestra calculadora !"  )
+        print("¡ Gracias por utilizar nuestra calculadora !")
         print("                                              ")
         print("Conozca más sobre nosotros en nuestra web:    ")
-        print("                 ovnion.com"                   )
+        print("                 ovnion.com")
         break
 
     elif opcion >= 1 and opcion <= 6:
@@ -91,8 +91,7 @@ while True:
 
         elif opcion == 5:
             numero1 = int(input("Ingrese el número base de la potencia --> "))
-            numero2 = int(
-                input("Ingrese el número exponente de la potencia --> "))
+            numero2 = int(input("Ingrese el número exponente de la potencia --> "))
 
             potenciacion = math.pow(numero1, numero2)
 

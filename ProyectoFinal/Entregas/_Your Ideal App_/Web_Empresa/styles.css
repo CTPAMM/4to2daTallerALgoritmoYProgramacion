@@ -39,7 +39,7 @@ nav {
 
 .img-logo {
   display: block;
-  width: 6%;
+  width: 10%;
   margin: left;
 }
 
@@ -48,7 +48,7 @@ nav {
 #hero {
   background-image: url("./imagenes/hero.jfif");
   background-color: rgb(0, 0, 0);
-  background:cover;
+  background-size:cover;
   color: rgb(248, 248, 248);
   text-align: center;
   padding: 170px;
@@ -64,7 +64,7 @@ nav {
 #about {
   padding: 80px 0;
   text-align: center;
-  background-color: #ffffff;
+  background-color:rgb(215, 146, 228);
 }
 
 .about-content {
@@ -76,7 +76,7 @@ nav {
 }
 
 .about-content .card {
-  background-color: #4e519e;
+  background-color: #d4d5db;
   box-shadow: 0 4px 8px 0 rgba(11, 11, 11, 0.2);
   max-width: 400px;
   margin: auto;
@@ -93,7 +93,8 @@ nav {
 #services {
   padding: 80px 0;
   text-align: center;
-  background-color: #4e519e;
+  color:rgb(215, 146, 228);
+  background-color: rgb(5,23,41);
 }
 
 .services-content {
@@ -105,7 +106,8 @@ nav {
 }
 
 .services-content .card {
-  background-color: #ffffff;
+  color: #000;
+  background-color: rgb(215, 146, 228);
   box-shadow: 0 4px 8px 0 rgba(6, 6, 6, 0.2);
   max-width: 400px;
   margin: auto;
@@ -122,8 +124,8 @@ nav {
   border: none;
   outline: 0;
   padding: 12px;
-  color: white;
-  background-color: #d24726;
+  color:rgb(215, 146, 228);
+  background-color:  rgb(5,23,41);
   text-align: center;
   cursor: pointer;
   width: 50%;
@@ -136,19 +138,19 @@ nav {
 
 .img-services {
   display: block;
-  width: 40%;
-  margin: auto;
+  width: 50%;
+  margin: 150px;
 }
 
 /* Estilos de la sección "Conoce al Equipo" */
 #team {
-  background-color: #f9f9f9;
   padding: 80px 0;
   text-align: center;
 }
 
 /* Three columns side by side */
 .team-column {
+
   float: left;
   width: 30%;
   margin-bottom: 16px;
@@ -243,7 +245,7 @@ nav {
 
 /* Estilos de la sección Footer */
 #footer {
-  background-color: #333;
+  background-color:rgb(215, 146, 228);
   color: white;
   text-align: center;
   padding: 80px 0;

@@ -7,7 +7,7 @@ body {
 
 /* Estilos de la barra de navegación */
 nav {
-  background-color: rgb(25, 0, 85);
+  background-color: #190055;
   color: rgb(220, 220, 255);
   display: flex;
   justify-content: space-between;
@@ -73,7 +73,7 @@ nav {
 
 .about-content .card {
   background-color: rgb(70, 68, 187);
-  box-shadow: 0 4px 8px 0 rgb(255, 93, 93);
+  box-shadow: 0 4px 8px 0 rgb(46, 14, 231);
   max-width: 400px;
   margin: auto;
   text-align: center;
@@ -89,7 +89,7 @@ nav {
 #services {
   padding: 80px 0;
   text-align: center;
-  background-color: #4e519e;
+  background-color: #190055;
 }
 
 .services-content {
@@ -105,7 +105,7 @@ nav {
   box-shadow: 0 4px 8px 0 rgba(6, 6, 6, 0.2);
   max-width: 400px;
   margin: auto;
-  text-align: center;
+  text-align: start;
   font-family: arial;
 }
 
@@ -239,7 +239,7 @@ nav {
 
 /* Estilos de la sección Footer */
 #footer {
-  background-color: #333;
+  background-color: #190055;
   color: white;
   text-align: center;
   padding: 80px 0;
@@ -249,7 +249,7 @@ nav {
   display: block;
   margin-top: 20px;
   font-size: 18px;
-  color: #ff5733;
+  color: #e6dedc;
   text-decoration: none;
 }
 

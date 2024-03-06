@@ -1,0 +1,139 @@
+/* Estilos generales */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos de la barra de navegación (nav) */
+
+nav {
+  background-color: #333;
+  color: rgb(252, 251, 252);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+}
+
+/* Estilos del texto e imágen del logo */
+
+.logo {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold",
+    "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: xx-large;
+}
+
+.img-logo {
+  display: block;
+  width: 10%;
+  margin: left;
+}
+
+/* Estilos de la sección "Conoce al Equipo" */
+#team {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+  text-align: center;
+}
+
+/* Three columns side by side */
+.team-column {
+  float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .team-column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.team-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.team-container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.team-container::after,
+.team-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.team-title {
+  color: grey;
+}
+
+.team-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.team-button:hover {
+  background-color: #555;
+}
+
+.team-img {
+  display: block;
+  width: 40%;
+  margin: auto;
+}
+
+/* Estilos de la sección Footer */
+#footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.contact-email {
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ff5733;
+  text-decoration: none;
+}
+
+.contact-email:hover {
+  color: #ff8c5a;
+}
+
+/* Estilos del botón "Volver al Inicio" */
+
+.back-to-top {
+  display: inline-block;
+  background-color: #ff5733;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.back-to-top:hover {
+  background-color: #ff8c5a;
+  transform: scale(1.05);
+}
